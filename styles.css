@@ -1,0 +1,58 @@
+/* Global ----- */
+
+html,
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+.body-container {
+    min-height: 100% !important;
+}
+
+/* Header ----- */
+
+.header-container {
+    background-color: #FFF;
+    padding-bottom: 20px;
+}
+
+.site-logo {
+    min-width: 500px !important;
+}
+
+.site-name {
+    font-family: 'Open Sans',
+    sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.site-name-1 {
+    font-weight: 900;
+}
+
+.site-name-2 {
+    font-weight: 200;
+}
+
+.nav-item {
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    font-size: 1.25rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-item:hover {
+    background-color: #E5E5E5;
+    color: #000;
+}
+
+/* Content ----- */
+
+.content-container {
+    padding-top: 20px;
+}
