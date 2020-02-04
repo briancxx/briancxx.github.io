@@ -2,7 +2,7 @@
 
 html,
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     height: 100%;
 }
@@ -22,37 +22,24 @@ body {
     min-width: 500px !important;
 }
 
-.site-name {
-    font-family: 'Open Sans',
-    sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 15px;
+h1 {
+    font-family: 'Arvo', serif;
+    margin: 0px auto;
 }
 
-.site-name-1 {
-    font-weight: 900;
+nav {
+    margin: 0px auto;
 }
 
-.site-name-2 {
-    font-weight: 200;
+nav ul {
+    padding: 0px;
 }
 
-.nav-item {
+nav li {
     border-radius: 5px;
     display: inline-block;
     float: left;
     font-size: 1.25rem;
     margin: 10px;
     padding: 10px;
-}
-
-.nav-item:hover {
-    background-color: #E5E5E5;
-    color: #000;
-}
-
-/* Content ----- */
-
-.content-container {
-    padding-top: 20px;
 }
