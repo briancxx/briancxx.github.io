@@ -74,3 +74,16 @@ nav li {
     text-align: center;
     width: 100%;
 }
+
+.btn-info {
+    background-color: #00DFFD;
+    border-color: #00DFFD;
+    color: #03476A;
+    font-weight: 700;
+}
+
+.btn-info:hover {
+    background-color: #03476A;
+    border-color: #03476A;
+    color: #FFF;
+}
