@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/8b1dc80328.js" crossorigin="anonymous"></script>
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -31,11 +32,11 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid header">
         <div class="row">
             <nav>
                 <ul>
-                    <li class="nav-title"><a href="index.html">Brian's Portfolio</a></li>
+                    <li class="nav-title"><a href="/">Brian's Portfolio</a></li>
                     <li class="nav-link">Background</li>
                     <li class="nav-link">Projects</li>
                     <li class="nav-link-ext"><a href="https://linkedin.com/in/briancxx" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -43,16 +44,29 @@
                 </ul>
             </nav>
         </div>
+        <div class="row">
+            <p class="announce">Information content displayed here.</p>
+        </div>
     </div>
-    <div class="container-fluid">
-        <div class="row text-center">
-            <img src="logo.svg" class="img-fluid mx-auto d-block logo">
+    <div class="container-fluid homepage">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="logo.svg" class="img-fluid mx-auto d-block logo">
+            </div>
+            <div class="col-md-5 d-flex align-items-center">
+                <span>
+                    <h1 class="name">Brian D. Cox</h1>
+                    <p class="desc">Thank you for visiting my portfolio! The site is currently a work in progress, but is a place for me to share my background and projects. If you are interested in contacting me, please do so via LinkedIn, at the link located on the menubar.</p>
+                    <button>This is a button.</button>
+                </span>
+            </div>
         </div>
+    </div>
+    <div class="container footer">
         <div class="row text-center">
-            <h1 class="name">Brian D. Cox</h1>
-        </div>
-        <div class="row text-center">
-            <p class="desc">Thank you for visiting my portfolio! The site is currently a work in progress, but is a place for me to share my background and projects. If you are interested in contacting me, please do so via LinkedIn, at the link located on the menubar.</p>
+            <div class="col-md-12">
+                <p>This website was created by Brian Cox for the purpose of sharing personal and professional projects and accomplishments.</p>
+            </div>
         </div>
     </div>
 </body>
