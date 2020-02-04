@@ -7,21 +7,6 @@ body {
     height: 100%;
 }
 
-.body-container {
-    min-height: 100% !important;
-}
-
-/* Header ----- */
-
-.header-container {
-    background-color: #FFF;
-    padding-bottom: 20px;
-}
-
-.site-logo {
-    min-width: 500px !important;
-}
-
 h1 {
     font-family: 'Arvo', serif;
     margin: 0px auto;
