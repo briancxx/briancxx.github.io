@@ -1,3 +1,3 @@
 # Brian's Portfolio
 
-Check it out at http://briancxx.me.
+Check it out at https://briancxx.me.
